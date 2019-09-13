@@ -1,0 +1,7 @@
+name: RailLoader
+version: ${project.version}
+main: djart.minecraft.paper.railloader.RailLoader
+api-version: 1.13
+authors: [djart]
+description: ${project.description}
+website: https://github.com/DjArt/railloader
