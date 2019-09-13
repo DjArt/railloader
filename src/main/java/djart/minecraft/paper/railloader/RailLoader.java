@@ -101,6 +101,7 @@ public class RailLoader extends JavaPlugin implements Listener
             for (int nz = z - radius; nz <= z + radius; ++nz)
             {
                 final Chunk chunk = minecart.getWorld().getChunkAt(nx, nz);
+                chunk.load();
                 chunk.setForceLoaded(true);
                 this.chunks.put(minecart, chunk);
             }
